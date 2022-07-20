@@ -1,7 +1,10 @@
+"""
+Dashboard page.
+"""
 from flask import Blueprint, render_template
 
 
-bp = Blueprint('web_gear', __name__)
+bp = Blueprint('web_ui', __name__)
 
 
 @bp.route('/')

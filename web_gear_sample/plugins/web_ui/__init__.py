@@ -1,12 +1,11 @@
 """
 Blueprint to base web app interface
 """
-import flask
-
+from flask import Flask
 from .bp_index import bp
 
 
-def init_app(app: flask):
+def init_app(app: Flask):
     """
     Blueprints register
     """
