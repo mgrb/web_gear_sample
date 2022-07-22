@@ -5,7 +5,7 @@ description = "WebApp using Flask"
 authors = ["Marlos Ribeiro"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "3.9"
 Flask = "^2.1.3"
 python-dotenv = "^0.20.0"
 dynaconf = "^3.1.9"
