@@ -12,7 +12,7 @@ def minimal_app(**config):
     App minimal bulder
     """
     info('Building webApp...')
-    app = Flask(__name__)
+    app = Flask(__name__,static_url_path='/static')
     configuration.init_app(app, **config)
     # site.init_app(app)
     return app

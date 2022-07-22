@@ -1,1 +1,90 @@
 {% extends 'base_page.html' %}
+
+{% block content %}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Dashboard</h1>
+    <!-- <div class="btn-toolbar mb-2 mb-md-0">
+        <div class="btn-group me-2">
+            <button type="button" class="btn btn-sm btn-outline-secondary">
+                Share
+            </button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">
+                Export
+            </button>
+        </div>
+        <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
+            <span data-feather="calendar" class="align-text-bottom"></span>
+            This week
+        </button>
+    </div> -->
+</div>
+
+<style>
+    .thumbnails {
+        text-align: center;
+    }
+
+    .thumbnails .thumbnail {
+        display: inline-block;
+        margin: 10px 40px 40px 40px;
+        min-width: 180px;
+        max-width: 200px;
+    }
+
+</style>
+
+<div class="thumbnails d-flex flex-wrap">
+    <button type="button" class="thumbnail btn btn-light">
+        <i class="feather-32" data-feather="download-cloud"></i> <br>
+        Download Forecasts
+    </button>
+    <button type="button" class="thumbnail btn btn-light">
+        <i class="feather-32" data-feather="sliders"></i><br>
+        Recalibrate
+    </button>
+    <button type="button" class="thumbnail btn btn-light">
+        <i class="feather-32" data-feather="file-text"></i><br>
+        Events Log
+    </button>
+</div>
+
+<h2>Lasts Actions</h2>
+<div class="table-responsive">
+    <table class="table table-striped table-sm">
+        <thead>
+            <tr>
+                <th scope="col">when</th>
+                <th scope="col">What</th>
+                <th scope="col">Who</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2022-07-01 12:22:11</td>
+                <td>Mussum Ipsum, cacilds vidis litro abertis</td>
+                <td>Fulano de Tal</td>
+            </tr>
+            <tr>
+                <td>2022-07-01 12:22:11</td>
+                <td>Mussum Ipsum, cacilds vidis litro abertis</td>
+                <td>Fulano de Tal</td>
+            </tr>
+            <tr>
+                <td>2022-07-01 12:22:11</td>
+                <td>Mussum Ipsum, cacilds vidis litro abertis</td>
+                <td>Fulano de Tal</td>
+            </tr>
+            <tr>
+                <td>2022-07-01 12:22:11</td>
+                <td>Mussum Ipsum, cacilds vidis litro abertis</td>
+                <td>Fulano de Tal</td>
+            </tr>
+            <tr>
+                <td>2022-07-01 12:22:11</td>
+                <td>Mussum Ipsum, cacilds vidis litro abertis</td>
+                <td>Fulano de Tal</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+{% endblock %}
