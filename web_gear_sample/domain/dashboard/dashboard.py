@@ -12,4 +12,4 @@ def main_page():
     """
     Render template
     """
-    return render_template('dashboard.html')
+    return render_template('dashboard.html.j2')

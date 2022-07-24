@@ -1,0 +1,115 @@
+{% extends 'base_page.html.j2' %}
+
+{% block title  %}Job Scheduler{% endblock title  %}
+
+{% block content %}
+<div class="container-fluid">
+    <h2>Pipeline</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Task</th>
+                <th scope="col">Description</th>
+                <th scope="col">Started at</th>
+                <th scope="col">Ended at</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody class="table-group-divider">
+            <tr>
+                <td class="table-dark" colspan='6'>SD - Hourly & Daily</td>
+            </tr>
+            <tr>
+                <th scope="row">1</th>
+                <td>Download GFS</td>
+                <td> ---- </td>
+                <td>2019-02-23T01:54:14.957299+00:00</td>
+                <td>2019-02-23T01:54:14.957299+00:00</td>
+                <td><i data-feather="play"></i></td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>GSF2SD</td>
+                <td> ---- </td>
+                <td>2019-02-23T01:54:14.957299+00:00</td>
+                <td>2019-02-23T01:54:14.957299+00:00</td>
+                <td><i data-feather="play"></i></td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>SB</td>
+                <td> ---- </td>
+                <td>2019-02-23T01:54:14.957299+00:00</td>
+                <td>2019-02-23T01:54:14.957299+00:00</td>
+                <td><i data-feather="play"></i></td>
+            </tr>
+            <tr>
+                <td class="table-dark" colspan='6'>SD - Monthly</td>
+            </tr>
+            <tr>
+                <th scope="row">1</th>
+                <td>Download Copernicus</td>
+                <td> ---- </td>
+                <td>2019-02-23T01:54:14.957299+00:00</td>
+                <td>2019-02-23T01:54:14.957299+00:00</td>
+                <td><i data-feather="play"></i></td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Copernicus2SD</td>
+                <td> ---- </td>
+                <td>2019-02-23T01:54:14.957299+00:00</td>
+                <td>2019-02-23T01:54:14.957299+00:00</td>
+                <td><i data-feather="play"></i></td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>SB</td>
+                <td> ---- </td>
+                <td>2019-02-23T01:54:14.957299+00:00</td>
+                <td>2019-02-23T01:54:14.957299+00:00</td>
+                <td><i data-feather="play"></i></td>
+            </tr>
+            <tr>
+                <td class="table-dark" colspan='6'>TSBM</td>
+            </tr>
+            <tr>
+                <th scope="row">1</th>
+                <td>ETL</td>
+                <td> ---- </td>
+                <td>2019-02-23T01:54:14.957299+00:00</td>
+                <td>2019-02-23T01:54:14.957299+00:00</td>
+                <td><i data-feather="play"></i></td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Quality Control</td>
+                <td> ---- </td>
+                <td>2019-02-23T01:54:14.957299+00:00</td>
+                <td>2019-02-23T01:54:14.957299+00:00</td>
+                <td><i data-feather="play"></i></td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>TSBM</td>
+                <td> ---- </td>
+                <td>2019-02-23T01:54:14.957299+00:00</td>
+                <td>2019-02-23T01:54:14.957299+00:00</td>
+                <td><i data-feather="play"></i></td>
+            </tr>
+            <tr>
+                <td class="table-dark" colspan='6'>PCM</td>
+            </tr>
+            <tr>
+                <th scope="row">1</th>
+                <td>PCM</td>
+                <td> ---- </td>
+                <td>2019-02-23T01:54:14.957299+00:00</td>
+                <td>2019-02-23T01:54:14.957299+00:00</td>
+                <td><i data-feather="play"></i></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+{% endblock content %}

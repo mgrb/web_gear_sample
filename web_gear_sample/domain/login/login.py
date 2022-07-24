@@ -12,4 +12,4 @@ def main_page():
     """
     Render template
     """
-    return render_template('login.html')
+    return render_template('login.html.j2')

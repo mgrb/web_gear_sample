@@ -3,7 +3,8 @@ DEBUG = false
 # SQLALCHEMY_DATABASE_URI = 'sqlite:///development.db'
 EXTENSIONS = [
     "web_gear_sample.domain.dashboard:init_app",
-    "web_gear_sample.domain.login:init_app"
+    "web_gear_sample.domain.login:init_app",
+    "web_gear_sample.domain.job_scheduler:init_app"
 ]
 
 [development]
